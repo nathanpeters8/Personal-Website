@@ -6,6 +6,7 @@ import ProjectsPage from "./pages/ProjectsPage";
 import NavBar from './NavBar';
 import AvalancheRunnerPage from './pages/AvalancheRunnerPage';
 import QuestForFunctionsPage from './pages/QuestForFunctionsPage';
+import HotDogStandPage from './pages/HotDogStandPage';
 import VideoGameProjectsPage from './pages/VideoGameProjectsPage';
 import DataScienceProjectsPage from './pages/DataScienceProjectsPage';
 import GISProjectsPage from './pages/GISProjectsPage';
@@ -23,6 +24,7 @@ function App() {
             <Route path='/projects' element={<ProjectsPage />} />
             <Route path="/avalancherunner" element={<AvalancheRunnerPage/>} />
             <Route path="/questforfunctions" element={<QuestForFunctionsPage/>}/>
+            <Route path="/hotdogstand" element={<HotDogStandPage/>}/>
             <Route path="/videogameprojects" element={<VideoGameProjectsPage/>}/>
             <Route path="/gisprojects" element={<GISProjectsPage/>}/>
             <Route path="/datascienceprojects" element={<DataScienceProjectsPage/>}/>

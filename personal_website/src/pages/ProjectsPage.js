@@ -7,8 +7,9 @@ const ProjectsPage = () => (
 
       <h4>Video Game Projects</h4>
       <Link to='/avalancherunner'>Avalanche Runner </Link>
-      <p></p>
       <Link to='/questforfunctions'>Quest For Functions </Link>
+      <Link to='/hotdogstand'>Hot Dog Stand VR </Link>
+
 
       <h4>Data Science Projects</h4>
 
