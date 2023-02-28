@@ -5,6 +5,7 @@ import AboutPage from "./pages/AboutPage";
 import ProjectsPage from "./pages/ProjectsPage";
 import NavBar from './NavBar';
 import AvalancheRunnerPage from './pages/AvalancheRunnerPage';
+import QuestForFunctionsPage from './pages/QuestForFunctionsPage';
 
 function App() {
 
@@ -18,6 +19,7 @@ function App() {
             <Route path='/about' element={<AboutPage />} />
             <Route path='/projects' element={<ProjectsPage />} />
             <Route path="/avalancherunner" element={<AvalancheRunnerPage/>} />
+            <Route path="/questforfunctions" element={<QuestForFunctionsPage/>}/>
           </Routes>
         </div>
       </div>
