@@ -11,9 +11,9 @@ const NavBar = () => {
           <Link to="/about">About Me</Link>
         </li>
         <li>
-          <div class="dropdown">
+          <div className="dropdown">
             <Link to="/projects">Projects</Link>
-            <div class="dropdown-content">
+            <div className="dropdown-content">
               <Link to="/videogameprojects">Video Game Projects</Link>
               <Link to="/datascienceprojects">Data Science Projects</Link>
               <Link to="/gisprojects">GIS Projects</Link>
