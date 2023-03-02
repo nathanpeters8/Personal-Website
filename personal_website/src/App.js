@@ -10,6 +10,7 @@ import HotDogStandPage from './pages/HotDogStandPage';
 import VideoGameProjectsPage from './pages/VideoGameProjectsPage';
 import DataScienceProjectsPage from './pages/DataScienceProjectsPage';
 import GISProjectsPage from './pages/GISProjectsPage';
+import PhotographyPage from './pages/PhotographyPage';
 
 function App() {
 
@@ -28,6 +29,7 @@ function App() {
             <Route path="/videogameprojects" element={<VideoGameProjectsPage/>}/>
             <Route path="/gisprojects" element={<GISProjectsPage/>}/>
             <Route path="/datascienceprojects" element={<DataScienceProjectsPage/>}/>
+            <Route path="/photography" element={<PhotographyPage/>}/>
           </Routes>
         </div>
       </div>
